@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="250dp" android:layout_height="wrap_content"
+	android:layout_margin="8dip" android:weightSum="1" android:background="@drawable/myshape"
+	android:id="@+id/lnu_parent">
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="match_parent" android:id="@+id/full_layout"
+		android:orientation="vertical">
+
+		<LinearLayout android:layout_width="fill_parent"
+			android:orientation="horizontal" android:layout_height="wrap_content"
+			android:id="@+id/widget_top_linear_layout">
+
+			<ImageView android:layout_width="wrap_content"
+				android:paddingTop="5dp" android:paddingLeft="5dp"
+				android:layout_gravity="center|top" android:layout_height="wrap_content"
+				android:src="@drawable/icon_old" android:id="@+id/widget_lnu_icon" />
+
+			<TextView android:id="@+id/widget_lnu_title" android:text="Linnaeus University"
+				android:paddingTop="1dp" android:paddingLeft="1dp"
+				android:textScaleX="1.5" android:layout_height="wrap_content"
+				android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge" />
+		</LinearLayout>
+
+		<LinearLayout android:layout_width="fill_parent"
+			android:orientation="horizontal" android:layout_height="wrap_content"
+			android:id="@+id/widget_mid_linear_layout">
+
+			<TextView android:layout_width="fill_parent" android:text="--- --, ---, ----"
+				android:layout_height="wrap_content" android:gravity="center"
+				android:id="@+id/widget_date" android:textAppearance="?android:attr/textAppearanceMedium" />
+
+			<ImageView android:layout_height="wrap_content"
+				android:paddingLeft="3dp" android:layout_width="wrap_content"
+				android:id="@+id/widget_reload_icon" />
+
+		</LinearLayout>
+		<LinearLayout android:layout_height="wrap_content"
+			android:layout_width="match_parent" android:orientation="vertical"
+			android:id="@+id/widget_buttom_linear_layout">
+
+			<TextView android:layout_width="fill_parent" android:text="------ --:-- ----- (-----)"
+				android:layout_height="wrap_content" android:gravity="center"
+				android:paddingTop="2dp" android:id="@+id/widget_schedule_list"
+				android:paddingBottom="5dp" android:textAppearance="?android:attr/textAppearanceSmall" />
+
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>

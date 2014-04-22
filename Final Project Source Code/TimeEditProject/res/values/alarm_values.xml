@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<array name="before_lecture_time_text">
+		<item>5 Minutes</item>
+		<item>10 Minutes</item>
+		<item>15 Minutes</item>
+		<item>20 Minutes</item>
+		<item>25 Minutes</item>
+		<item>30 Minutes</item>
+		<item>35 Minutes</item>
+		<item>40 Minutes</item>
+		<item>45 Minutes</item>
+		<item>50 Minutes</item>
+		<item>55 Minutes</item>
+		<item>1 Hour</item>
+		<item>1 Hour 30 Minutes</item>
+		<item>2 Hours</item>
+		<item>2 Hours 30 Minutes</item>
+		<item>3 Hours</item>
+		<item>4 Hours</item>
+		<item>5 Hours</item>
+		<item>6 Hours</item>
+	</array>
+
+	<array name="before_lecture_time_value">
+		<item>5</item>
+		<item>10</item>
+		<item>15</item>
+		<item>20</item>
+		<item>25</item>
+		<item>30</item>
+		<item>35</item>
+		<item>40</item>
+		<item>45</item>
+		<item>50</item>
+		<item>55</item>
+		<item>60</item>
+		<item>90</item>
+		<item>120</item>
+		<item>150</item>
+		<item>180</item>
+		<item>240</item>
+		<item>300</item>
+		<item>360</item>
+	</array>
+</resources>

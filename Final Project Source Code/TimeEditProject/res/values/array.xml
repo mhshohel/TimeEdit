@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="update_list">
+		<item>Auto Update Disable</item>
+		<item>Every 3 Hours</item>
+		<item>Every 6 Hours</item>
+		<item>Every 12 Hours</item>
+	</string-array>
+
+	<string-array name="update_val">
+		<item>0</item>
+		<item>3</item>
+		<item>6</item>
+		<item>12</item>
+	</string-array>
+	
+</resources>
+

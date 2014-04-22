@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceCategory android:title="Lnu-TimeEdit: Auto Update Settings"
+		android:summary="Enable/Disable auto update for Lnu-TimeEdit" />
+
+	<ListPreference android:title="Auto Update"
+		android:summary="Set Autoupdate time" android:key="LnuAutoUpdatePreference"
+		android:dialogIcon="@drawable/icon_old" android:entries="@array/update_list"
+		android:entryValues="@array/update_val" android:defaultValue="Every 6 Hours" />
+	
+	<CheckBoxPreference android:title="Update Offline"
+			android:summary="Check it to get schedule without update from internet."
+			android:key="LnuOfflinePref" />
+</PreferenceScreen>

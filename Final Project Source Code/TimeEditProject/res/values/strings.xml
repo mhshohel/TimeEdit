@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Linnaeus University Time Edit</string>
+	<string name="app_description">Linnaeus University Time Edit (Schedule)
+		Application.
+	</string>
+
+	<string name="main_contetext_menu_title">Options</string>
+	<string name="main_add_new_course_teacher">Add Course/Teacher</string>
+	<string name="main_close_application">Close</string>
+	<string name="main_edit_course_teacher">Edit/Change</string>
+	<string name="main_delete_course_teacher">Delete</string>
+	<string name="main_delete_all_course_teacher">Delete All</string>
+	<string name="main_activate_alarm_course_teacher">Activate Alarm</string>
+	<string name="main_deactivate_alarm_course_teacher">Deactivate Alarm</string>
+	<string name="main_option_menu_setting">Settings</string>
+	<string name="main_option_menu_about">About</string>
+	<string name="main_delete_progress">Deleting...</string>
+	<string name="main_deactivate_alarm_progress">Deactivate Alarm...</string>
+	<string name="main_delete_course_teacher_title">Delete Course/Teacher</string>
+	<string name="main_delete_course_teacher_message">Delete Failed</string>
+	<string name="main_alarm_set_fail_title">Alarm Error</string>
+	<string name="main_alarm_set_fail_message">Failed to activate alarm</string>
+	<string name="main_alarm_unset_fail_title">Alarm Error</string>
+	<string name="main_alarm_unset_fail_message">Alarm not set for this course or teacher</string>
+	<string name="main_alarm_set_fail_no_class_title">Alarm Set Failed</string>
+	<string name="main_alarm_set_fail_no_class_message">No classes has been found, please update first and
+		try again
+	</string>
+	<string name="main_set_alarm_title">Alarm Before Lecture</string>
+	<string name="main_alarm_cannot_set_from_today_title">Information</string>
+	<string name="main_alarm_cannot_set_from_today_message">You cannot activate alarm from here</string>
+	<string name="main_alarm_cannot_deactive_from_today_title">Information</string>
+	<string name="main_alarm_cannot_deactive_from_today_message">You cannot deactivate alarm from here</string>
+	<string name="main_menu_list_todays">Today\'s Events</string>
+	<string name="main_menu_list_show_all">Schedule</string>
+
+
+	<string name="dialog_button_ok">OK</string>
+	<string name="dialog_button_cancel">Cancel</string>
+
+	<string name="today">Today</string>
+	<string name="tomorrow">Tomorrow</string>
+
+	<string name="schedule">LNU Schedule</string>
+	<string name="add_course_title">Add Course</string>
+	<string name="search_course_title">Search Course/Teacher</string>
+
+	<string name="course_list_title">Courses/Teachers</string>
+	<string name="course_list_shortcut">c</string>
+
+	<string name="settings_title">Settings</string>
+
+	<string name="update_title">Update</string>
+	<string name="update_message">Updating...</string>
+	<string name="update_failed_message_title">Update Failed</string>
+	<string name="update_failed_message">Connection problem, please try again</string>
+
+	<string name="search_button_text">Search</string>
+	<string name="search_spinner_course">Course</string>
+	<string name="search_spinner_teacher">Teacher</string>
+	<string name="search_message">Searching...</string>
+	<string name="search_failed_title">Search Failed</string>
+	<string name="search_failed_message">Connection problem, please try later</string>
+	<string name="search_notfound_title">Invalid Search</string>
+	<string name="search_notfound_message">Course/Teacher is not found</string>
+
+	<string name="course_screen_name">Name</string>
+	<string name="course_screen_signature">Code</string>
+	<string name="course_screen_add_text">Add</string>
+	<string name="course_screen_confirm_text">Confirm Changes</string>
+	<string name="course_screen_cancel_text">Cancel</string>
+
+	<string name="edit_course_title">Edit Course/Teacher</string>
+
+
+	<string name="update_failed_title">Update Failed</string>
+	<string name="alarm_wake_up_title">Notification</string>
+	<string name="alarm_wake_up_message">You have a class/meeting today</string>
+
+	<string name="notification_previous_class">Previous Schedule</string>
+	<string name="notification_updated_class">Updated Schedule</string>
+
+	<string name="schedule_no_class_title">Information</string>
+	<string name="schedule_no_class_message">Currently there are no classes/meetings available
+	</string>
+	<string name="schedule_no_class_title1">Information: Updated Offline</string>
+	<string name="schedule_contetext_menu_title">Options</string>
+	<string name="schedule_active_alarm">Set/Change Alarm</string>
+	<string name="schedule_deactive_alarm">Deactivate Alarm</string>
+	<string name="schedule_show_previous_class">Previous Schedule</string>
+	<string name="schedule_alarm_set_failed_title">Activation Failed</string>
+	<string name="schedule_alarm_set_failed_message">You cannot set alarm after the class</string>
+	<string name="schedule_alarm_deactivate_failed_title">Deactivation Failed</string>
+	<string name="schedule_alarm_deactivate_failed_message">Alarm not set for the current event</string>
+	<string name="schedule_alarm_dialog_title">Alarm Before Lecture</string>
+	<string name="schedule_notification_ticker_title">TimeEdit.Lnu.Se</string>
+	<string name="schedule_notification_ticker_message">Schedule has been Changed!</string>
+	<string name="schedul_alarm_cannot_set_from_today_title">Information</string>
+	<string name="schedul_alarm_cannot_set_from_today_message">You cannot activate alarm from here</string>
+	<string name="schedul_alarm_cannot_deactive_from_today_title">Information</string>
+	<string name="schedul_alarm_cannot_deactive_from_today_message">You cannot deactivate alarm from here</string>
+	<string name="schedul_previous_class_cannot_show_title">Information</string>
+	<string name="schedul_previous_class_cannot_show_message">You cannot get previous schedule from here</string>
+	<string name="schedul_toast_for_header_context_menu">Please select schedule to activate or deactivate
+		alarm.</string>
+
+</resources>
